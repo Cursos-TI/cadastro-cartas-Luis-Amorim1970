@@ -56,20 +56,18 @@ int main() {
     printf("Código da Carta (ex: A01): ");
     scanf("%4s", codigo1);             // lê string sem espaços (A01)
     printf("Nome da Cidade: ");
-    fgets(cidade1, sizeof(cidade1), stdin);
-    // Remover o '\n' que fgets pode ter colocado
-    cidade1[strcspn(cidade1, "\n")] = '\0';
+    scanf("%s", cidade1);
 
-    printf("População (inteiro): ");
+    printf("População (inteiro):\n ");
     scanf("%d", &populacao1);
 
-    printf("Área (em km², use ponto decimal): ");
+    printf("Área (em km², use ponto decimal):\n ");
     scanf("%f", &area1);
 
-    printf("PIB (use valor em bilhões, use ponto decimal): ");
+    printf("PIB (use valor em bilhões, use ponto decimal):\n ");
     scanf("%f", &pib1);
 
-    printf("Número de Pontos Turísticos (inteiro): ");
+    printf("Número de Pontos Turísticos (inteiro):\n ");
     scanf("%d", &pontos_tur1);
 
      /* ---------- Entrada de dados da Carta 2 ---------- */
@@ -81,16 +79,15 @@ int main() {
     printf("Código da Carta (ex: B02): ");
     scanf("%4s", codigo2);
      printf("Nome da Cidade: ");
-    fgets(cidade2, sizeof(cidade2), stdin);
-    cidade2[strcspn(cidade2, "\n")] = '\0';
+    scanf("%s", cidade2);
 
-    printf("População (inteiro): ");
+    printf("População (inteiro): \n");
     scanf("%d", &populacao2);
 
-    printf("Área (em km², use ponto decimal): ");
+    printf("Área (em km², use ponto decimal):\n ");
     scanf("%f", &area2);
 
-    printf("PIB (use valor em bilhões, use ponto decimal): ");
+    printf("PIB (use valor em bilhões, use ponto decimal):\n ");
     scanf("%f", &pib2);
 
     printf("Número de Pontos Turísticos (inteiro): ");
@@ -105,19 +102,18 @@ int main() {
     printf("Código da Carta (ex: B02): ");
     scanf("%4s", codigo3);
      printf("Nome da Cidade: ");
-    fgets(cidade3, sizeof(cidade3), stdin);
-    cidade3[strcspn(cidade3, "\n")] = '\0';
+    scanf("%s", cidade3);
 
-    printf("População (inteiro): ");
+    printf("População (inteiro):\n ");
     scanf("%d", &populacao3);
 
-    printf("Área (em km², use ponto decimal): ");
+    printf("Área (em km², use ponto decimal):\n ");
     scanf("%f", &area3);
 
-    printf("PIB (use valor em bilhões, use ponto decimal): ");
+    printf("PIB (use valor em bilhões, use ponto decimal):\n ");
     scanf("%f", &pib3);
 
-    printf("Número de Pontos Turísticos (inteiro): ");
+    printf("Número de Pontos Turísticos (inteiro):\n ");
     scanf("%d", &pontos_tur3);
 
 
@@ -130,19 +126,18 @@ int main() {
     printf("Código da Carta (ex: B02): ");
     scanf("%4s", codigo4);
      printf("Nome da Cidade: ");
-    fgets(cidade4, sizeof(cidade4), stdin);
-    cidade4[strcspn(cidade4, "\n")] = '\0';
+    scanf("%s", cidade4);
 
-    printf("População (inteiro): ");
+    printf("População (inteiro): \n ");
     scanf("%d", &populacao4);
 
-    printf("Área (em km², use ponto decimal): ");
+    printf("Área (em km², use ponto decimal):\n ");
     scanf("%f", &area4);
 
-    printf("PIB (use valor em bilhões, use ponto decimal): ");
+    printf("PIB (use valor em bilhões, use ponto decimal):\n ");
     scanf("%f", &pib4);
 
-    printf("Número de Pontos Turísticos (inteiro): ");
+    printf("Número de Pontos Turísticos (inteiro):\n ");
     scanf("%d", &pontos_tur4);
 
   // Área para exibição dos dados da cidade
@@ -184,6 +179,6 @@ int main() {
     printf("Número de Pontos Turísticos: %d\n", pontos_tur4);
 
 
-    
+
 return 0;
 } 
