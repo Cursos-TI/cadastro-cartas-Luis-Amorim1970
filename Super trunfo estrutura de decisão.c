@@ -2,7 +2,12 @@
 #include <string.h>  // necessário para strcspn
  
 // Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das cartas
+// Tema 3 - Cadastro das cartas
+
+// =========================================================
+// Autor Luís Eduardo Amorim
+// Data: 17/06/2024
+// =========================================================
  
 int main() {
  
