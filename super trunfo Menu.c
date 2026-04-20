@@ -4,6 +4,13 @@
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das cartas
 
+// ===============================================================
+// Autor Luís Eduardo Amorim
+// Data: 17/04/2026
+// Criação de Menu interativo para comparar as cartas cadastradas
+// Data 20/04/2026 - Tema 3 - Niivel aventureiro - comando switch
+// ===============================================================
+
 int main() {
 
     // =========================================================
@@ -242,8 +249,7 @@ int main() {
 
         case 5:
             printf("\n  Comparação: Densidade Populacional\n");
-            // CORREÇÃO: estava usando "resultado_pib" em vez de "resultado_densidade"
-            if (resultado_densidade == 1)
+            if (densidade1 > densidade2)  // CORREÇÃO: para densidade, menor valor é melhor
                 printf("  Carta 1 venceu no quesito Densidade Populacional!\n");
             else
                 printf("  Carta 2 venceu no quesito Densidade Populacional!\n");
